@@ -2,25 +2,25 @@ package unidad0.ejerciciosRepaso.EjercicioUT5;
 
 public class Videojuego {
 
-	private String titulo;
+	private String titulo1;
 	private String genero;
 	private double precioBase;
 	private int valoracion;
 	
 	public Videojuego(String titulo, String genero, double precioBase, int valoracion) {
 		super();
-		this.titulo = titulo;
+		this.titulo1 = titulo;
 		this.genero = genero;
 		this.precioBase = precioBase;
 		this.valoracion = valoracion;
 	}
 
 	public String getTitulo() {
-		return titulo;
+		return titulo1;
 	}
 
 	public void setTitulo(String titulo) {
-		this.titulo = titulo;
+		this.titulo1 = titulo;
 	}
 
 	public String getGenero() {
@@ -49,7 +49,7 @@ public class Videojuego {
 
 	@Override
 	public String toString() {
-		return "[" + genero + "] " + titulo + " - Precio: " + precioBase + " (Puntos: "
+		return "[" + genero + "] " + titulo1 + " - Precio: " + precioBase + " (Puntos: "
 				+ valoracion + ")";
 	}
 	
